@@ -1,0 +1,61 @@
+{
+  "name": "@jbl/ui",
+  "version": "0.1.0",
+  "main": "src/index.tsx",
+  "main:src": "src",
+  "author": "Jakub Blunár",
+  "scripts": {
+    "test": "cross-env react-scripts test",
+    "lint": "cross-env eslint ./src/**/*.{ts,tsx} --format=codeframe"
+  },
+  "dependencies": {
+    "@jbl/core": "0.1.0",
+    "lodash": "4.17.20",
+    "react": "17.0.1",
+    "react-dom": "17.0.1",
+    "react-is": "16.8.0",
+    "styled-components": "5.2.1"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ],
+  "jest": {
+    "collectCoverageFrom": [
+      "src/**/*.{ts,tsx}",
+      "!src/setupTests.{ts,tsx}",
+      "!src/serviceWorker.{ts,jsx}",
+      "!src/**/*.(spec|test|stories).{ts,tsx}"
+    ],
+    "coverageThreshold": {
+      "global": {
+        "statements": 0,
+        "branches": 0,
+        "functions": 0,
+        "lines": 0
+      }
+    },
+    "coverageReporters": [
+      "text"
+    ]
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/core": "7.12.9",
+    "@testing-library/jest-dom": "5.11.6",
+    "@testing-library/react": "11.2.2",
+    "@testing-library/user-event": "12.3.0",
+    "@types/jest": "26.0.16",
+    "@types/lodash": "4.14.165",
+    "@types/node": "13.1.6",
+    "@types/react": "17.0.0",
+    "@types/react-dom": "17.0.0",
+    "babel-loader": "8.2.2",
+    "react-scripts": "4.0.1"
+  }
+}

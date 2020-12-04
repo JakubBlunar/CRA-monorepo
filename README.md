@@ -1,14 +1,14 @@
 # JBL's monorepo
 
-Monorepo boilerplate for React Create react app using:
-Lerna
-Yarn workspaces
-React 17
-Typescript
-Prettier
-Eslint
-Editorconfig
-Craco
+Monorepo boilerplate for React Create react app using:<br />
+Lerna<br />
+Yarn workspaces<br />
+React 17<br />
+Typescript<br />
+Prettier<br />
+Eslint<br />
+Editorconfig<br />
+Craco<br />
 
 Package folders must be defined in package.json from root directory and each package must contain "main:src" entry in package json along with main describing entry point of library.
 
@@ -47,11 +47,11 @@ Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
 Launches the tests in all packages.
 
-### `test:ci`
+### `yarn test:ci`
 
 Run eslint and tests on all packages and generates code coverage. Used in CI because it onlu outputs results and not progress of operations.
 
-### `lint`
+### `yarn lint`
 
 Launches lint in all packages.
 

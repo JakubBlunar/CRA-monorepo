@@ -1,0 +1,47 @@
+{
+  "eslint.validate": ["javascript", "javascriptreact", "typescript", "typescriptreact"],
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true
+  },
+  "typescript.tsdk": "node_modules\\typescript\\lib",
+  "editor.formatOnSave": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "files.exclude": {
+    // "**/.next": true,
+    // "**/dist": true,
+    // "**/coverage": true,
+    // "**/node_modules": true,
+    // "**/.editorconfig": true,
+    // "**/.eslintrc": true,
+    // "**/.eslintignore": true,
+    // "**/.gitattributes": true,
+    // "**/.gitignore": true,
+    // "**/.npmrc": true,
+    // "**/.prettierrc": true,
+    // "**/tsconfig*.json": true,
+    // "**/lerna.json": true,
+    // "**/jest.config.js": true,
+    // "**/babel.config.js": true,
+    // "**/nodemon.json": true,
+    // "**/clean.bat": true,
+    // "**/docker-compose.yml": true,
+    // "**/Dockerfile": true,
+    // "**/next.config.js": true,
+    // "**/gulpfile.js": true,
+    // "**/.yarnrc": true,
+    // "**/.eslintrc.js": true,
+    // "**/.yarn": true,
+    // "**/yarn.lock": true,
+    // "**/craco.config.js": true
+  },
+  "search.exclude": {
+    "**/node_modules": true,
+    "**/package-lock.json": true,
+    "**/yarn.lock": true,
+    "**/.yarn": true
+  },
+  "editor.detectIndentation": false
+}
