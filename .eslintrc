@@ -73,7 +73,7 @@
     "**/.git/**",
     "**/public/**",
     "**/serviceWorker.ts",
-    "**/yarnWorkspaces.js",
+    "**/workspaces.js",
     "**/craco-lerna.js",
     "craco.config.js"
   ]
