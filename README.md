@@ -26,6 +26,8 @@ or
 yarn install
 ```
 
+Set vs-code typescript version to 4.1.2! Without it you will have problems with jsx in typescript
+
 ## Installing new npm packages
 
 New npm libraries can be easily added to specific workspace by specifying workspace in yarn add script.
